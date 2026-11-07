@@ -1,0 +1,14 @@
+[project]
+name = "renovate-test"
+version = "0.1.0"
+description = "Renovateの動作確認用プロジェクト"
+readme = "README.md"
+requires-python = ">=3.15"
+dependencies = [
+    "requests==2.31.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
